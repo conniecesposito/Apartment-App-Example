@@ -1,0 +1,13 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul li {
+	padding: 0 20px;
+}
