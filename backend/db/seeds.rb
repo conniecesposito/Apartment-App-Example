@@ -23,3 +23,16 @@ apartments = Apartment.create([
     hours: '8am-6pm Mon-Sun'
   }
 ])
+
+users = User.create([
+  {
+    email: 'exampleuser@me.com',
+    password: '123123',
+    password_confirmation: '123123'
+  },
+  {
+    email: 'me@example.com',
+    password: '123123',
+    password_confirmation: '123123'
+  }
+])
