@@ -1,4 +1,5 @@
-// the address of our rails backend
+
+
 const BASE = 'http://localhost:3000'
 
 let getApartments = function() {

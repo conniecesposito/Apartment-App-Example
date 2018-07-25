@@ -7,7 +7,7 @@ class ApartmentCard extends Component {
 		return (
 			<Link to={'/apartments/' + apartment.id}>
 				<article>
-					<img src="#" />
+					<img src= "#" />
 					<div>
 						<h3>{apartment.name}</h3>
 						<p className="detail">{apartment.city}, {apartment.state}</p>
